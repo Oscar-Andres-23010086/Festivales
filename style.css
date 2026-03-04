@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgba(67, 37, 197, 0.61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: azure;
+}
+
+h2, nav{
+    color: aliceblue;
+}
+
+/* ---- MENÚ DESPLEGABLE ---- */
+
+nav{
+    width: 250px;
+    margin: 20px auto;
+}
+
+details{
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+summary{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+details ul{
+    list-style: none;
+    padding-left: 15px;
+}
+
+details li{
+    margin: 6px 0;
+}
+
+details li:hover{
+    color: yellow;
+    cursor: pointer;
+}
